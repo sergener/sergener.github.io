@@ -1,27 +1,34 @@
+html {
+	height: 100%;
+}
+
 body {
-    background-image: url("imgs/headermaybe.jpg");
-    background-repeat: repeat;
-    padding: 2%;
+    background-color: white;
     margin: auto;
     max-width: 1000px;
-    height: 500px;
+    padding-top: 5.5em;
+    display: block;
+    font-family: lato, sans-serif;
+    color: #2F4F4F;
+    min-height:200px;
+    height: 100%;
 }
 
 header {
-    background-color: rgb(160, 249, 249);
+    background-color: #304a4a;
+    border-radius: 20px;
     position: fixed;
     width: 1000px;
-    height: 5em;
+    height: 80px;
     top: 0px;
+    z-index: 100;
 }
 
 h1 {
     position: absolute;
     left: 10px;
-    top: -20%;
-    font-family: Garamond;
+    top: -35%;
     font-size: 3em;
-    background-color: cornflowerblue;
     border-radius: 5px;
 }
 
@@ -34,40 +41,68 @@ header h1 a:hover {
     color: blanchedalmond;
 }
 
-table {
-    position: absolute;
-    right: 10px;
-}
-
-table h2 {
-	background-color: cornflowerblue;
-	border-radius: 5px
-}
-
 table h2 a:link {
 	color:aliceblue;
 	text-decoration: none;
 }
 
-#website-links {
-	color: aliceblue;
-	text-decoration: none;
+table h2 a:hover {
+    color: blanchedalmond;
 }
 
 .text {
-	
-    font-size: 16px;
-    font-family: Garamond;
-    padding: 4%;
-    background-color: white;
-    overflow: hidden;
-	width: 1000px;
-	height: 100%;
+	clear: both;
+	display: inline-block;
 }
+
+#website-links {
+	color: aliceblue;
+	text-decoration: none;
+	position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+#picture {
+	display: inline-block;
+	width: 30%;
+	border-radius: 10px;
+}
+
+#body-text {
+	/*position: absolute;
+	width: 49%;
+	right: 40px;
+	padding-left: 55%;*/
+	width: 69%;
+	min-height: 60px;
+	display: inline-block;
+	word-wrap: break-word;
+	text-align: top;
+	float: right;
+}
+
+
 
 footer {
     position: fixed;
     bottom: 0px;
-    height: 5%;
-    width: 1000px;
-    background-color: rgb(160, 249, 249);
+    height: 45px;
+    width: 100%;
+    background-color: #304a4a;
+    max-width: 1000px;
+    border-radius: 10px;
+    z-index: 100;
+}
+footer a {
+	left-padding: 0px;
+}
+
+ul {
+    position: absolute;
+    right: 0px;
+    margin: auto;
+}
+
+
+
