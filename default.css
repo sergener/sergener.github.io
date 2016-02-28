@@ -1,0 +1,73 @@
+body {
+    background-image: url("imgs/headermaybe.jpg");
+    background-repeat: repeat;
+    padding: 2%;
+    margin: auto;
+    max-width: 1000px;
+    height: 500px;
+}
+
+header {
+    background-color: rgb(160, 249, 249);
+    position: fixed;
+    width: 1000px;
+    height: 5em;
+    top: 0px;
+}
+
+h1 {
+    position: absolute;
+    left: 10px;
+    top: -20%;
+    font-family: Garamond;
+    font-size: 3em;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+header h1 a:link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: blanchedalmond;
+}
+
+table {
+    position: absolute;
+    right: 10px;
+}
+
+table h2 {
+	background-color: cornflowerblue;
+	border-radius: 5px
+}
+
+table h2 a:link {
+	color:aliceblue;
+	text-decoration: none;
+}
+
+#website-links {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.text {
+	
+    font-size: 16px;
+    font-family: Garamond;
+    padding: 4%;
+    background-color: white;
+    overflow: hidden;
+	width: 1000px;
+	height: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 5%;
+    width: 1000px;
+    background-color: rgb(160, 249, 249);
