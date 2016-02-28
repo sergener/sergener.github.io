@@ -98,10 +98,11 @@ footer a {
 	left-padding: 0px;
 }
 
-ul {
+footer ul {
     position: absolute;
     right: 0px;
     margin: auto;
+    padding-top: 5px;
 }
 
 
