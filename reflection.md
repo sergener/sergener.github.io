@@ -19,3 +19,5 @@ Fixed positioning with my headers and footers was one of my earliest decisions i
 -I ended up adding a lot of classes and ids to make sure I was very specifically targeting what I wanted to target in the HTML. I thought this was important since it was the default stylesheet- I didn't want to have similar elements on pages in the future that may be accidentally targeted because I used the same tags. I felt this was particula
 
 A few other thoughts: I definitely spent more that four hours working on mostly the index page, and ended up feeling a bit burnt out and tired when formatting the blog index, so I plan on revisiting that in the future. I think at this point the structure of the page is much more solid, though, so it will be easier to position things where I want them to be.
+
+For a while I had a stray { in my CSS code and it messed everything up as well; I think I ended up just futzing around with both the HTML and CSS a little too much and really need to go back and edit and clean up my code a little bit to bring it back up to standard.
