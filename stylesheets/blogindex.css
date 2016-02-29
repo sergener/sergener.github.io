@@ -1,17 +1,12 @@
-nav ul a:link {
+nav ul li a:link {
 	font-family: lato, sans-serif;
     color: #2F4F4F;
     text-decoration: none
 }
 
-nav ul a:hover {
+nav ul li a:hover {
 	font-family: lato, sans-serif;
     color: #312020;
     text-decoration: none
 }
 
-nav ul a:visited {
-	font-family: lato, sans-serif;
-    color: #2a4040;
-    text-decoration: none
-} 
