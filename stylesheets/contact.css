@@ -1,0 +1,34 @@
+
+label {
+	display: block;
+	margin-top: 50px;
+}
+
+input {
+	width: 300px;
+}
+
+#name {
+	border: 1px dotted;
+	border-radius: 3px;
+}
+
+#email {
+	border: 1px dotted;
+	border-radius: 3px;
+}
+
+textarea {
+	width: 500px;
+	height: 200px;
+	border: 1px dotted;
+	border-radius: 3px;
+}
+
+#submit {
+	display: block;
+	width: 100px;
+}
+
+/* Add background colors to the boxes
+*/
