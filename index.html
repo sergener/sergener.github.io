@@ -1,47 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Sibel Ergener</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
-  <link rel="stylesheet" type="text/css" href="index.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sibel Ergener</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-<header>
-  <nav>
-    <h1><a href="/index.html">sibel ergener</a></h1>
-    <table id="website-links">
-      <tr>
-        <td><h2>-<a href="/projects/index.html"> projects</a>  -</h2></td>
-        <td><h2><a href="/blog/index.html"> blog</a>  -</h2></td>
-        <td><h2><a href="/cv/index.html"> resume</a>   -</h2></td>
-        <td><h2><a href="/about/index.html"> about</a>   -</h2></td>
-        <td><h2><a href="/contact/index.html"> contact </a>-</h2></td>
-      </tr>
-    </table>
-  </nav>
-</header>
-<div class="text">
-  	<div>
-  		<img id="picture" src="imgs/me.jpg" alt="Sibel Ergener">
-  		<div id="body-text"><h3>About me</h3>
-  			<p>Hi! I'm Sibel. I'm an artist and junior developer with a diverse background based in Astoria, New York. I'm currently learning how to code as a student at Dev Bootcamp. Go explore my projects and blog!</p>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="glyphicon glyphicon-cloud"></i>  <span class="light">sibel</span> ergener
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://resume.creddle.io/resume/f4hqdvvgxsv">Résumé</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-  	</div>
-  	<nav>
-      <table id="navigation">
-  		  <td><a href="/projects/index.html"><img src="#" alt="projects"></a></td>
-  		  <td><a href="/blog/index.html"><img src="#" alt="blog"></a></td>
-      </table>
-  	</nav>
-</div>
-<footer>
-  <ul>
-    <td><a href="https://github.com/sergener/sergener.github.io"><img src="imgs/GitHub-32px.png" width="32px" alt="github"></a></td>
-    <td><a href="https://www.linkedin.com/in/sibel-ergener-51472283"><img src="imgs/linkedin.svg" width= "32px" alt="linkedin"></a></td>
-    <td><a href="mailto:sibel.ergener@gmail.com"><img src="#" alt="email"></a></td>
-  </ul>
-  	
-</footer>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">sibel ergener</h1>
+                        <p class="intro-text">full stack developer, nyc.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About me</h2>
+                <p>Full stack developer living in NYC.</p>
+                <p><a href="http://devbootcamp.com/">DevBootcamp graduate</a> with experience with HTML5/CSS, Javascript, Ruby on Rails, and React.js</p>
+                <p>I love <a href="http://sibelergener.com">art</a>, travel, history, diversity and intersectionality. Most of all, I'm passionate about finding ways to merge these interests with my love of tech.</p>
+                <a href="https://resume.creddle.io/resume/f4hqdvvgxsv" class="btn btn-default btn-lg">Résumé</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="projects" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Projects</h2>
+                    <p></p>
+                    <a href="http://museumfindernyc.herokuapp.com/" class="btn btn-default btn-lg">Museum Finder</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact</h2>
+                <p>Interested in talking, meeting for a coffee, or discussing one of my projects? I'd love to hear from you!</p>
+                <p><a href="mailto:sibel.ergener@gmail.com">sibel.ergener@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/sibeldraws" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/sergener" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/sergener" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; sibel ergener 2016</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
 </body>
+
 </html>
